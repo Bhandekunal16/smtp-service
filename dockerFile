@@ -40,5 +40,6 @@ RUN chmod +x app.process.sh
 # ---------------------------------------------------------
 CMD ["./app.process.sh"]
 
-# docker build -f dockerFile -t bhandekunal16/smtp-service .
-# docker --name smtp-service run --rm  -p 8000:8000 -p 4000:4000 -p 4001:4001 bhandekunal16/smtp-service:0.0.1
+# docker buildx build --platform linux/arm64 -f dockerFile -t bhandekunal16/smtp-service:0.0.2-arm64 --push 
+
+# sudo docker run -d   --name smtp-service   --restart unless-stopped   -p 8000:8000 bhandekunal16/smtp-service:0.0.2-arm64
