@@ -1,0 +1,17 @@
+{
+  "SMTP_HOST": "smtp.gmail.com",
+  "SMTP_USER": "spamstrom07@gmail.com",
+  "SMTP_PASSWORD": "dldf waqo xchr vekl",
+  "SMTP_PORT": 587,
+  "SMTP_SECURE": false,
+  "TO_NOT_FOUND": {
+    "message": "to email not found!",
+    "status": false,
+    "statusCode": 404
+  },
+  "SUBJECT_NOT_FOUND": {
+    "message": "subject not found!",
+    "status": false,
+    "statusCode": 404
+  }
+}

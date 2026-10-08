@@ -1,0 +1,6 @@
+{
+  "exclude": ["params", "body"],
+  "WRITE_L0G": false,
+  "LOG_REQUESTS": true,
+  "LOG_RESPONSES": true
+}

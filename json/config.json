@@ -1,0 +1,15 @@
+{
+  "errorInterceptor": true,
+  "encryption_Interceptor": false,
+  "logger_interceptor": true,
+  "response_interceptor": true,
+  "clustering": true,
+  "helmet_interceptor": true,
+  "rateLimiting": true,
+  "requestId": true,
+  "ENABLE_UPSTREAM_REQUEST_TIMEOUT": true,
+  "ENABLE_UPSTREAM_RESPONSE_TIMEOUT": true,
+  "ENABLE_CLIENT_HEADERS_TIMEOUT": true,
+  "ENABLE_CLIENT_KEEP_ALIVE_TIMEOUT": true,
+  "REPLICA": true
+}

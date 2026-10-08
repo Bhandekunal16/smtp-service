@@ -1,0 +1,15 @@
+services:
+  node-proxy-app:
+    build:
+      context: .
+      dockerfile: dockerfile
+
+    image: ${IMAGE_NAME}:${IMAGE_TAG}
+    container_name: ${CONTAINER_NAME}
+
+    ports:
+      - "8000:8000"
+      - "4000:4000"
+      - "4001:4001"
+
+    restart: unless-stopped

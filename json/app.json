@@ -1,0 +1,18 @@
+{
+  "host": "0.0.0.0",
+  "port": 4000,
+  "proxyPort": 8000,
+  "PROXY_TIMEOUT": 30000,
+  "HEADERS_TIMEOUT": 10000,
+  "KEEP_ALIVE_TIMEOUT": 5000,
+  "SHUTDOWN_TIMEOUT": 10000,
+  "secretKey": "robotic",
+  "ENCODED_KEY": "base64",
+  "encryption_algorithm": "aes-256-gcm",
+  "algorithm": "sha256",
+  "Unicode_Transformation_Format": "utf8",
+  "IV_LENGTH" : 12,
+  "AUTH_TAG_LENGTH" : 16,
+  "randomString": "1234567890123456",
+  "replicas": 2
+}
